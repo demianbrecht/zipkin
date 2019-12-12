@@ -20,7 +20,7 @@ aggregate behavior including error paths or calls to deprecated services.
 
 <img src="https://zipkin.io/public/img/dependency-graph.png" alt="Dependency graph screenshot" />
 
-Application’s need to be “instrumented” to report trace data to Zipkin. This
+Applications need to be “instrumented” to report trace data to Zipkin. This
 usually means configuration of a [tracer or instrumentation library](https://zipkin.io/pages/tracers_instrumentation.html). The most
 popular ways to report data to Zipkin are via http or Kafka, though many other
 options exist, such as Apache ActiveMQ, gRPC and RabbitMQ. The data served to
